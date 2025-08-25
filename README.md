@@ -2,7 +2,7 @@
 
 Analyzing **Toronto public transit delay data** (bus, subway, streetcar) to identify delay hotspots, root causes, and generate valuable insights.  
 This project builds an **ETL (Extract, Transform, Load) pipeline** on Google Cloud Platform (GCP), automates workflows using **Airflow**, and visualizes results with **Looker Studio dashboards**.  
-
+<img width="2100" height="1125" alt="Image" src="https://github.com/user-attachments/assets/d5c91e4d-3eea-4c07-9fbb-c6590fb17cb9" />
 ---
 
 ## 📑 Table of Contents  
