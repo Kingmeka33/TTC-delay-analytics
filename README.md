@@ -97,14 +97,14 @@ This project builds an **ETL (Extract, Transform, Load) pipeline** on Google Clo
    - Converts to **Parquet format**.  
    - Uploads to **GCS bucket**.  
    - Removes local copy from VM to save storage.  
-   <img width="3175" height="292" alt="Image" src="https://github.com/user-attachments/assets/7db396c1-021c-42db-aff0-095f26a75b75" /> 
+     <img width="2548" height="1371" alt="Image" src="https://github.com/user-attachments/assets/f12c7c10-1c01-4ab8-942b-6ca25934e481" />
 
 2. **`dataproc_job_dag.py`**  
    - Uploads Spark job (`spark_job.py`) to GCS for Dataproc.  
    - Configures service account for GCP integration.  
-   - Creates Dataproc cluster → runs job → deletes cluster (cost optimization).  
-  <img width="2548" height="1371" alt="Image" src="https://github.com/user-attachments/assets/f12c7c10-1c01-4ab8-942b-6ca25934e481" />
-
+   - Creates Dataproc cluster → runs job → deletes cluster (cost optimization).
+   - 
+    <img width="3175" height="292" alt="Image" src="https://github.com/user-attachments/assets/7db396c1-021c-42db-aff0-095f26a75b75" /> 
 ---
 
 ## 📊 Dashboard  
@@ -114,8 +114,8 @@ This project builds an **ETL (Extract, Transform, Load) pipeline** on Google Clo
   - Delay hotspots (routes, stations).  
   - Root causes (mechanical, weather, infrastructure).  
   - Patterns by day, time, and direction.  
-
-<img width="2069" height="1593" alt="Image" src="https://github.com/user-attachments/assets/9eb00bf0-8666-4110-ac5b-617cbfe84056" />  
+<img width="2065" height="1605" alt="Image" src="https://github.com/user-attachments/assets/338ca0eb-4434-4952-98bb-0f1d030092ef" />
+<img width="2079" height="1589" alt="Image" src="https://github.com/user-attachments/assets/f8917dae-564b-4a1d-afcd-ccd34b3cd145" />
 
 > Note: No delay records available for **July – December 2023** (data snapshot taken in August 2023).  
 
@@ -130,10 +130,4 @@ This project builds an **ETL (Extract, Transform, Load) pipeline** on Google Clo
 
 ---
 
-## 🎉 Acknowledgments  
 
-- **City of Toronto Open Data Portal** for making TTC delay data publicly available.  
-- Special thanks to the **open-source data engineering community** for inspiration on best practices in cloud pipelines.  
-<img width="2065" height="1605" alt="Image" src="https://github.com/user-attachments/assets/338ca0eb-4434-4952-98bb-0f1d030092ef" />
-<img width="2079" height="1589" alt="Image" src="https://github.com/user-attachments/assets/f8917dae-564b-4a1d-afcd-ccd34b3cd145" />
----
