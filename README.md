@@ -81,8 +81,6 @@ This project builds an **ETL (Extract, Transform, Load) pipeline** on Google Clo
 - **BigQuery:** Stores structured and cleaned datasets (data warehouse).  
 - **Dockerized Airflow:** Automates pipeline orchestration.  
 
-<img width="2052" height="1576" alt="Image" src="https://github.com/user-attachments/assets/ad4a0375-275d-4255-9dbc-2842c841ba60" />
-
 ---
 
 ## 🔄 ETL Pipeline  
